@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小兔鲜儿官网复现 - 实验作业</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="student-info">
+        学号：24215220228 | 姓名：刘腾岳
+    </div>
+
+    <div class="shortcut">
+        <div class="wrapper">
+            <ul>
+                <li><a href="#" class="login">请先登录</a></li>
+                <li>|</li>
+                <li><a href="#">免费注册</a></li>
+                <li>|</li>
+                <li><a href="#">我的订单</a></li>
+                <li>|</li>
+                <li><a href="#">会员中心</a></li>
+                <li>|</li>
+                <li><a href="#">帮助中心</a></li>
+                <li>|</li>
+                <li><a href="#">在线客服</a></li>
+                <li>|</li>
+                <li><a href="#"><span>📱</span> 手机版</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="header wrapper">
+        <div class="logo">
+            <a href="#"><img src="./images/logo.png" alt="小兔鲜儿"></a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#" class="active">生鲜</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">餐厨</a></li>
+                <li><a href="#">电器</a></li>
+                <li><a href="#">居家</a></li>
+                <li><a href="#">洗护</a></li>
+                <li><a href="#">孕婴</a></li>
+                <li><a href="#">服装</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <span class="icon-search">🔍</span>
+            <input type="text" placeholder="搜一搜">
+        </div>
+        <div class="cart">
+            <span class="icon-cart">🛒</span>
+            <span class="badge">2</span>
+        </div>
+    </header>
+
+    <div class="banner wrapper">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">生鲜 <span>水果 蔬菜</span></a> <span class="arrow">&gt;</span></li>
+                <li class="active"><a href="#">美食 <span>面点 干果</span></a> <span class="arrow">&gt;</span></li>
+                <li><a href="#">餐厨 <span>数码产品</span></a> <span class="arrow">&gt;</span></li>
+                <li><a href="#">电器 <span>床品 四件套 被枕</span></a> <span class="arrow">&gt;</span></li>
+                <li><a href="#">居家 <span>奶粉 玩具 辅食</span></a> <span class="arrow">&gt;</span></li>
+                <li><a href="#">洗护 <span>洗发 洗护 美妆</span></a> <span class="arrow">&gt;</span></li>
+                <li><a href="#">孕婴 <span>奶粉 玩具</span></a> <span class="arrow">&gt;</span></li>
+                <li><a href="#">服饰 <span>女装 男装</span></a> <span class="arrow">&gt;</span></li>
+            </ul>
+        </div>
+
+        <div class="slider">
+            <a href="#"><img src="./images/banner1.png" alt="首屏大图"></a>
+        </div>
+    </div>
+
+    <div class="goods-panel wrapper">
+        <div class="panel-header">
+            <h3>新鲜好物 <span>新鲜出炉 品质靠谱</span></h3>
+            <a href="#" class="more">查看全部 &gt;</a>
+        </div>
+        <div class="panel-body">
+            <ul class="goods-list">
+                <li>
+                    <a href="#">
+                        <img src="./images/goods1.png" alt="商品">
+                        <p class="name">KN95级莫兰迪色防护口罩</p>
+                        <p class="desc">三层防护，贴合面部</p>
+                        <p class="price">&yen;<span>79.00</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/goods2.png" alt="商品">
+                        <p class="name">法兰绒保暖加厚床垫</p>
+                        <p class="desc">软糯亲肤，恒温保暖</p>
+                        <p class="price">&yen;<span>299.00</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/goods3.png" alt="商品">
+                        <p class="name">原味烘焙混合坚果</p>
+                        <p class="desc">营养丰富，每日坚果</p>
+                        <p class="price">&yen;<span>68.00</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/goods4.png" alt="商品">
+                        <p class="name">智能变频静音破壁机</p>
+                        <p class="desc">细腻无渣，冷热双打</p>
+                        <p class="price">&yen;<span>399.00</span></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="goods-panel wrapper popular-panel">
+        <div class="panel-header">
+            <h3>人气推荐 <span>人气爆款 不容错过</span></h3>
+            <a href="#" class="more">查看全部 &gt;</a>
+        </div>
+        <div class="panel-body">
+            <ul class="goods-list popular-list">
+                <li>
+                    <a href="#">
+                        <img src="./images/recommend1.png" alt="特惠推荐">
+                        <p class="name">特惠推荐</p>
+                        <p class="desc">我猜得到 你的需要</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/recommend2.png" alt="爆款推荐">
+                        <p class="name">爆款推荐</p>
+                        <p class="desc">人气好物推荐</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/recommend3.png" alt="节日礼品">
+                        <p class="name">节日礼品一站买全</p>
+                        <p class="desc">编辑尽心整理推荐</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/recommend4.png" alt="鲜花园艺">
+                        <p class="name">鲜花园艺</p>
+                        <p class="desc">给生活增加仪式感</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="brand-panel wrapper">
+        <div class="panel-header">
+            <h3>热门品牌 <span>国际经典 品质认证</span></h3>
+            <div class="controls">
+                <a href="#" class="prev">&lt;</a>
+                <a href="#" class="next">&gt;</a>
+            </div>
+        </div>
+        <div class="panel-body">
+            <ul class="brand-list">
+                <li><a href="#"><img src="./images/hot1.png" alt="品牌"></a></li>
+                <li><a href="#"><img src="./images/hot2.png" alt="品牌"></a></li>
+                <li><a href="#"><img src="./images/hot3.png" alt="品牌"></a></li>
+                <li><a href="#"><img src="./images/hot4.png" alt="品牌"></a></li>
+                <li><a href="#"><img src="./images/hot5.png" alt="品牌"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="category-panel wrapper">
+        <div class="panel-header">
+            <h3>生鲜</h3>
+            <div class="sub-nav">
+                <a href="#">热门</a>
+                <a href="#">蔬菜</a>
+                <a href="#">肉禽蛋</a>
+                <a href="#">水果</a>
+                <a href="#">海鲜</a>
+                <a href="#">零食</a>
+                <a href="#">饮料</a>
+                <a href="#" class="more">查看全部 &gt;</a>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="banner-left">
+                <a href="#"><img src="./images/fresh_left.png" alt="生鲜大图"></a>
+            </div>
+            <ul class="goods-list category-goods">
+                <li>
+                    <a href="#">
+                        <img src="./images/fresh1.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">双味千层，手抓饼烤肉组合<br>240g/袋 4片装<br>加热即食</p>
+                            <p class="price">&yen; <span>59.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/fresh2.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">云南甘蔗慢熬红糖馒头<br>220g/袋 5个装<br>加热即食</p>
+                            <p class="price">&yen; <span>39.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/fresh3.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">日式风味小圆饼<br>圆形【海盐味】<br>糖果零食</p>
+                            <p class="price">&yen; <span>19.90</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/fresh4.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">全麦奶油浓香小面包<br>50g*12袋<br>美味西点</p>
+                            <p class="price">&yen; <span>29.90</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/fresh5.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">鲜活大闸蟹 8只装<br>黄满膏肥<br>中秋送礼</p>
+                            <p class="price">&yen; <span>258.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/fresh6.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">原切谷饲眼肉牛排<br>200g/片<br>肉质细嫩</p>
+                            <p class="price">&yen; <span>128.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/fresh7.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">深海野生大墨鱼<br>500g/袋<br>鲜美无比</p>
+                            <p class="price">&yen; <span>88.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/fresh8.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">供港品质散养土鸡蛋<br>30枚/盒<br>营养健康</p>
+                            <p class="price">&yen; <span>69.00</span></p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="category-panel wrapper">
+        <div class="panel-header">
+            <h3>居家</h3>
+            <div class="sub-nav">
+                <a href="#">热门</a>
+                <a href="#">鲜花生活</a>
+                <a href="#">家纺</a>
+                <a href="#">创意礼品</a>
+                <a href="#">个人佩饰</a>
+                <a href="#">生活日用</a>
+                <a href="#" class="more">查看全部 &gt;</a>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="banner-left">
+                <a href="#">
+                    <img src="./images/home_left.png" alt="居家大图">
+                    <div class="banner-info">
+                        <span class="main">居家馆</span>
+                        <span class="sub">全场满减</span>
+                    </div>
+                </a>
+            </div>
+            <ul class="goods-list category-goods">
+                <li>
+                    <a href="#">
+                        <img src="./images/home1.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">双味千层，手抓饼烤肉组合<br>240g/袋 4片装<br>加热即食</p>
+                            <p class="price">&yen; <span>59.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/home2.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">云南甘蔗慢熬红糖馒头<br>220g/袋 5个装<br>加热即食</p>
+                            <p class="price">&yen; <span>39.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/home3.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">日式风味小圆饼<br>圆形【海盐味】<br>糖果零食</p>
+                            <p class="price">&yen; <span>19.90</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/home4.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">全麦奶油浓香小面包<br>50g*12袋<br>美味西点</p>
+                            <p class="price">&yen; <span>29.90</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/home5.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">秘制外皮五福摩提大福点心<br>150g/盒<br>美味西点</p>
+                            <p class="price">&yen; <span>29.90</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/home6.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">水果面膜韩国蜂蜜柚子茶<br>560g/瓶<br>冲调饮品</p>
+                            <p class="price">&yen; <span>79.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/home7.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">浓情比利时巧克力礼盒装<br>205克/盒<br>糖果零食</p>
+                            <p class="price">&yen; <span>29.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/home8.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">抹茶奶油小蛋糕礼盒装220<br>克/盒<br>美味西点</p>
+                            <p class="price">&yen; <span>39.00</span></p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="category-panel wrapper">
+        <div class="panel-header">
+            <h3>服装</h3>
+            <div class="sub-nav">
+                <a href="#">热门</a>
+                <a href="#">女装</a>
+                <a href="#">奢侈品</a>
+                <a href="#">裤装</a>
+                <a href="#">衬衫</a>
+                <a href="#">T恤</a>
+                <a href="#">内衣</a>
+                <a href="#" class="more">查看全部 &gt;</a>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="banner-left">
+                <a href="#">
+                    <img src="./images/colthes_left.png" alt="服装大图">
+                    <div class="banner-info">
+                        <span class="main">服饰馆</span>
+                        <span class="sub">3折起狂欢</span>
+                    </div>
+                </a>
+            </div>
+            <ul class="goods-list category-goods">
+                <li>
+                    <a href="#">
+                        <img src="./images/clothes1.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">双味千层，手抓饼烤肉组合<br>240g/袋 4片装<br>加热即食</p>
+                            <p class="price">&yen; <span>719.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/clothes2.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">云南甘蔗慢熬红糖馒头<br>220g/袋 5个装<br>加热即食</p>
+                            <p class="price">&yen; <span>699.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/clothes3.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">日式风味小圆饼<br>圆形【海盐味】<br>糖果零食</p>
+                            <p class="price">&yen; <span>229.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/clothes4.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">全麦奶油浓香小面包<br>50g*12袋<br>美味西点</p>
+                            <p class="price">&yen; <span>14.50</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/clothes5.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">秘制外皮五福摩提大福点心<br>150g/盒<br>美味西点</p>
+                            <p class="price">&yen; <span>179.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/clothes6.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">水果面膜韩国蜂蜜柚子茶<br>560g/瓶<br>冲调饮品</p>
+                            <p class="price">&yen; <span>565.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/clothes7.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">浓情比利时巧克力礼盒装<br>205克/盒<br>糖果零食</p>
+                            <p class="price">&yen; <span>99.99</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/clothes8.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">抹茶奶油小蛋糕礼盒装220<br>克/盒<br>美味西点</p>
+                            <p class="price">&yen; <span>269.00</span></p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="category-panel wrapper">
+        <div class="panel-header">
+            <h3>餐厨</h3>
+            <div class="sub-nav">
+                <a href="#">热门</a>
+                <a href="#">厨具</a>
+                <a href="#">水具</a>
+                <a href="#">灯具</a>
+                <a href="#">五金</a>
+                <a href="#">家装材料</a>
+                <a href="#">居家毫无</a>
+                <a href="#" class="more">查看全部 &gt;</a>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="banner-left">
+                <a href="#">
+                    <img src="./images/kitchen_left.png" alt="餐厨大图">
+                    <div class="banner-info">
+                        <span class="main">餐厨馆</span>
+                        <span class="sub">大额优惠<br>等你来拿</span>
+                    </div>
+                </a>
+            </div>
+            <ul class="goods-list category-goods">
+                <li>
+                    <a href="#">
+                        <img src="./images/kitchen1.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">双味千层，手抓饼烤肉组合<br>240g/袋 4片装<br>加热即食</p>
+                            <p class="price">&yen; <span>210.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/kitchen2.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">云南甘蔗慢熬红糖馒头<br>220g/袋 5个装<br>加热即食</p>
+                            <p class="price">&yen; <span>32.99</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/kitchen3.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">日式风味小圆饼<br>圆形【海盐味】<br>糖果零食</p>
+                            <p class="price">&yen; <span>30.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/kitchen4.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">全麦奶油浓香小面包<br>50g*12袋<br>美味西点</p>
+                            <p class="price">&yen; <span>69.99</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/kitchen5.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">秘制外皮五福摩提大福点心<br>150g/盒<br>美味西点</p>
+                            <p class="price">&yen; <span>99.99</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/kitchen6.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">水果面膜韩国蜂蜜柚子茶<br>560g/瓶<br>冲调饮品</p>
+                            <p class="price">&yen; <span>35.00</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/kitchen7.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">浓情比利时巧克力礼盒装<br>205克/盒<br>糖果零食</p>
+                            <p class="price">&yen; <span>12.99</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/kitchen8.png" alt="商品">
+                        <div class="goods-info">
+                            <p class="title">抹茶奶油小蛋糕礼盒装220<br>克/盒<br>美味西点</p>
+                            <p class="price">&yen; <span>56.99</span></p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="topic-panel wrapper">
+        <div class="panel-header">
+            <h3>最新专题</h3>
+            <a href="#" class="more">查看全部 &gt;</a>
+        </div>
+        <div class="panel-body">
+            <ul class="topic-list">
+                <li>
+                    <a href="#"><img src="./images/topic1.png" alt="专题"></a>
+                    <div class="topic-meta">
+                        <span>♡ 1220</span>
+                        <span>⊙ 1800</span>
+                        <span class="reply">💬 246</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/topic2.png" alt="专题"></a>
+                    <div class="topic-meta">
+                        <span>♡ 1220</span>
+                        <span>⊙ 1800</span>
+                        <span class="reply">💬 246</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/topic3.png" alt="专题"></a>
+                    <div class="topic-meta">
+                        <span>♡ 1220</span>
+                        <span>⊙ 1800</span>
+                        <span class="reply">💬 246</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="service">
+                <a href="#"><span>💎</span> 价格亲民</a>
+                <a href="#"><span>✈️</span> 物流快捷</a>
+                <a href="#"><span>🛡️</span> 品质新鲜</a>
+            </div>
+            <div class="copyright">
+                <p>
+                    <a href="#">关于我们</a> |
+                    <a href="#">帮助中心</a> |
+                    <a href="#">售后服务</a> |
+                    <a href="#">配送与验收</a> |
+                    <a href="#">商务合作</a> |
+                    <a href="#">搜索推荐</a> |
+                    <a href="#">友情链接</a>
+                </p>
+                <p>CopyRight © 小兔鲜儿网页复现实验</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

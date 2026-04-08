@@ -1,0 +1,175 @@
+/* ================= 全局基础样式 ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+ul { list-style: none; }
+a { text-decoration: none; color: #333; }
+img { vertical-align: middle; max-width: 100%; }
+
+/* 版心约束 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 实验要求：学号和姓名 */
+.student-info {
+    background-color: #e6a23c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* ================= 头部导航区域 ================= */
+.shortcut { height: 40px; background-color: #333; }
+.shortcut .wrapper { height: 100%; display: flex; justify-content: flex-end; align-items: center; }
+.shortcut ul { display: flex; }
+.shortcut li { padding: 0 10px; color: #666; font-size: 14px; }
+.shortcut li a { color: #cdcdcd; transition: color 0.3s; }
+.shortcut li a:hover, .shortcut li a.login { color: #27ba9b; }
+
+.header { height: 132px; display: flex; align-items: center; justify-content: space-between; background-color: #fff; }
+.logo img { height: 80px; display: block; }
+
+.nav ul { display: flex; }
+.nav li { margin-right: 40px; }
+.nav a { font-size: 16px; padding-bottom: 5px; transition: all 0.3s; }
+.nav a:hover, .nav a.active { color: #27ba9b; border-bottom: 2px solid #27ba9b; }
+
+.search { display: flex; align-items: center; border-bottom: 2px solid #e7e7e7; padding-bottom: 5px; width: 170px; }
+.search input { border: none; outline: none; margin-left: 5px; font-size: 14px; color: #999; width: 100%; }
+
+.cart { position: relative; font-size: 24px; cursor: pointer; }
+.cart .badge {
+    position: absolute; top: -5px; right: -10px;
+    background-color: #e26237; color: #fff; font-size: 12px;
+    padding: 1px 6px; border-radius: 10px;
+}
+
+/* ================= Banner 区域 ================= */
+.banner {
+   height: 500px;
+    display: flex; /* 关键修改：用 Flex 布局左右分列 */
+    margin-bottom: 40px;
+}
+
+/* 左侧分类导航 */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.sidebar ul { padding-top: 15px; }
+.sidebar li { height: 50px; line-height: 50px; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; transition: all 0.3s; }
+.sidebar li:hover, .sidebar li.active { background-color: #27ba9b; }
+.sidebar a { color: #fff; font-size: 16px; width: 100%; }
+.sidebar a span { font-size: 14px; margin-left: 10px; }
+.sidebar .arrow { font-size: 12px; color: #fff; }
+
+/* 右侧大图区域 */
+.slider {
+    width: 990px; /* 1240总宽减去侧边栏的250 */
+    height: 100%;
+}
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保证右侧大图铺满且不变形 */
+}
+
+/* ================= 公用基础模块样式 ================= */
+.panel-header { display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 20px; }
+.panel-header h3 { font-size: 28px; font-weight: normal; }
+.panel-header h3 span { font-size: 16px; color: #999; margin-left: 15px; }
+.panel-header .more { font-size: 14px; color: #999; transition: color 0.3s; }
+.panel-header .more:hover { color: #27ba9b; }
+
+/* 基础商品列表 (一排四个) */
+.goods-panel { margin-bottom: 40px; }
+.goods-list { display: flex; justify-content: space-between; }
+.goods-list li { width: 24%; background-color: #fff; transition: all 0.3s; }
+.goods-list li:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+.goods-list a { display: block; padding: 20px 0; text-align: center; }
+.goods-list img { width: 160px; height: 160px; object-fit: cover; margin-bottom: 10px; }
+.goods-list .name { font-size: 16px; margin-bottom: 5px; padding: 0 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.goods-list .desc { font-size: 14px; color: #999; margin-bottom: 10px; }
+.goods-list .price { color: #cf4444; font-size: 14px; }
+.goods-list .price span { font-size: 22px; }
+
+/* ================= 人气推荐 特定样式 ================= */
+.popular-list a { padding: 0 0 20px 0; }
+.popular-list img { width: 100%; height: auto; margin-bottom: 15px; display: block; }
+.popular-list .name { font-size: 18px; color: #333; margin-bottom: 5px; font-weight: normal; }
+.popular-list .desc { font-size: 14px; color: #999; margin-bottom: 0; }
+
+/* ================= 热门品牌 模块 ================= */
+.brand-panel { margin-bottom: 40px; background-color: #f5f5f5; padding-bottom: 40px; }
+.brand-panel .panel-header { align-items: center; }
+.brand-panel .controls a { display: inline-block; width: 20px; height: 20px; background-color: #ccc; color: #fff; text-align: center; line-height: 20px; margin-left: 5px; font-size: 12px; }
+.brand-panel .controls a:hover, .brand-panel .controls a.active { background-color: #27ba9b; }
+.brand-list { display: flex; justify-content: space-between; }
+.brand-list li { width: 240px; height: 305px; background-color: #fff; transition: all 0.3s; }
+.brand-list li:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+.brand-list img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ================= 分类模块 (生鲜/居家/服装) ================= */
+.category-panel { margin-bottom: 40px; background-color: #fff; padding-top: 20px; }
+.category-panel .sub-nav { display: flex; align-items: center; }
+.category-panel .sub-nav a { padding: 2px 12px; font-size: 14px; margin-left: 10px; transition: all 0.3s; }
+.category-panel .sub-nav a:hover { background-color: #27ba9b; color: #fff; border-radius: 2px; }
+.category-panel .sub-nav a.more { color: #999; }
+.category-panel .sub-nav a.more:hover { background-color: transparent; color: #27ba9b; }
+.category-panel .panel-body { display: flex; justify-content: space-between; }
+
+/* 左侧分类大图 */
+.category-panel .banner-left { width: 240px; height: 610px; position: relative; overflow: hidden; background-color: #e8e8e8; transition: all 0.3s; }
+.category-panel .banner-left:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+.category-panel .banner-left img { width: 100%; height: 100%; object-fit: cover; }
+.category-panel .banner-left .banner-info {
+    position: absolute; left: 0; bottom: 150px;
+    width: 100%; height: 60px; background-color: rgba(0, 0, 0, 0.7);
+    display: flex; align-items: center; justify-content: space-around; color: #fff; padding: 0 20px;
+}
+.category-panel .banner-left .banner-info .main { font-size: 18px; }
+.category-panel .banner-left .banner-info .sub { font-size: 14px; color: #ccc; }
+
+/* 右侧商品网格 */
+.category-panel .category-goods { width: 990px; display: flex; flex-wrap: wrap; justify-content: space-between; align-content: space-between; }
+.category-panel .category-goods li { width: 240px; height: 300px; background-color: #fff; transition: all 0.3s; margin-bottom: 10px; border: 1px solid transparent; }
+.category-panel .category-goods li:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 1px solid #27ba9b; }
+.category-panel .category-goods a { display: block; height: 100%; text-align: left; padding: 10px; }
+.category-panel .category-goods img { width: 100%; height: 170px; object-fit: contain; margin-bottom: 10px; display: block; margin: 0 auto 10px; }
+.category-panel .goods-info { padding: 0 10px; }
+.category-panel .goods-info .title { font-size: 14px; color: #333; line-height: 1.5; height: 63px; overflow: hidden; margin-bottom: 5px; }
+.category-panel .goods-info .price { color: #cf4444; font-size: 14px; }
+.category-panel .goods-info .price span { font-size: 20px; }
+
+/* ================= 最新专题 ================= */
+.topic-panel { margin-bottom: 40px; }
+.topic-list { display: flex; justify-content: space-between; }
+.topic-list li { width: 405px; background-color: #fff; transition: all 0.3s; }
+.topic-list li:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+.topic-list img { width: 100%; height: 280px; object-fit: cover; }
+.topic-meta { padding: 15px 20px; display: flex; font-size: 14px; color: #999; }
+.topic-meta span { margin-right: 20px; }
+.topic-meta .reply { margin-left: auto; margin-right: 0; }
+
+/* ================= 底部版权 ================= */
+.footer { background-color: #333; padding-top: 40px; padding-bottom: 40px; color: #fff; }
+.footer .service { display: flex; justify-content: center; border-bottom: 1px solid #434343; padding-bottom: 40px; margin-bottom: 40px; }
+.footer .service a { color: #fff; font-size: 24px; margin: 0 50px; }
+.footer .copyright { text-align: center; color: #999; font-size: 14px; line-height: 2; }
+.footer .copyright a { color: #999; padding: 0 10px; }
+.footer .copyright a:hover { color: #27ba9b; }
