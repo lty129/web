@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="City travel collection">
+  <defs><linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d6ddd7"/><stop offset=".52" stop-color="#72877f"/><stop offset="1" stop-color="#182120"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-opacity=".3"/></filter></defs>
+  <rect width="900" height="900" fill="url(#b)"/>
+  <rect y="585" width="900" height="315" fill="#182120"/>
+  <g filter="url(#s)" transform="rotate(-10 430 555)">
+    <path d="M195 548 C265 438 405 420 510 486 C565 520 615 548 707 554 C746 556 770 596 744 627 C715 663 625 685 493 673 C348 660 247 643 189 622 C155 610 162 578 195 548 Z" fill="#f4eee3"/>
+    <path d="M302 501 C370 460 446 462 515 515" fill="none" stroke="#c96f48" stroke-width="28" stroke-linecap="round"/>
+    <path d="M255 615 C380 648 580 657 727 604" fill="none" stroke="#2b3735" stroke-width="26" stroke-linecap="round"/>
+  </g>
+  <circle cx="682" cy="260" r="80" fill="#d5b468" opacity=".86"/>
+  <rect x="135" y="205" width="210" height="270" rx="24" fill="#263332" opacity=".9"/>
+  <path d="M176 205 C187 150 292 150 304 205" fill="none" stroke="#f4eee3" stroke-width="14" stroke-linecap="round"/>
+</svg>

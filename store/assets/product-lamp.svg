@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="950" viewBox="0 0 900 950" role="img" aria-label="Reading lamp">
+  <defs><radialGradient id="g" cx=".5" cy=".18" r=".7"><stop stop-color="#fff0b5"/><stop offset=".38" stop-color="#d5b45f" stop-opacity=".55"/><stop offset="1" stop-color="#2c3b39"/></radialGradient><filter id="s"><feDropShadow dx="0" dy="28" stdDeviation="22" flood-opacity=".32"/></filter></defs>
+  <rect width="900" height="950" fill="url(#g)"/>
+  <g filter="url(#s)"><rect x="397" y="220" width="92" height="360" rx="46" fill="#23302f"/><path d="M305 660 H600" stroke="#23302f" stroke-width="38" stroke-linecap="round"/><path d="M365 220 C395 120 515 120 545 220 Z" fill="#f3e7ce"/><circle cx="455" cy="235" r="52" fill="#d4ad62"/></g>
+</svg>

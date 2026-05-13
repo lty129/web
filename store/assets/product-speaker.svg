@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="950" viewBox="0 0 900 950" role="img" aria-label="Bluetooth speaker">
+  <defs><linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e8ece7"/><stop offset=".6" stop-color="#778b83"/><stop offset="1" stop-color="#18201f"/></linearGradient><pattern id="mesh" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="2.4" fill="#e7ddc8" opacity=".5"/></pattern><filter id="s"><feDropShadow dx="0" dy="30" stdDeviation="26" flood-opacity=".3"/></filter></defs>
+  <rect width="900" height="950" fill="url(#b)"/>
+  <g filter="url(#s)"><rect x="190" y="330" width="520" height="290" rx="145" fill="#202a29"/><rect x="235" y="372" width="430" height="205" rx="102" fill="url(#mesh)"/><circle cx="355" cy="475" r="72" fill="#101716"/><circle cx="545" cy="475" r="72" fill="#101716"/><circle cx="450" cy="475" r="26" fill="#d1aa5d"/></g>
+</svg>

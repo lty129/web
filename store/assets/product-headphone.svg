@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="950" viewBox="0 0 900 950" role="img" aria-label="Noise cancelling headphones">
+  <defs><linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#edf0ec"/><stop offset=".58" stop-color="#859892"/><stop offset="1" stop-color="#192321"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="30" stdDeviation="26" flood-opacity=".32"/></filter></defs>
+  <rect width="900" height="950" fill="url(#b)"/>
+  <g filter="url(#s)"><path d="M245 462 C245 260 655 260 655 462" fill="none" stroke="#202b2a" stroke-width="54" stroke-linecap="round"/><rect x="200" y="430" width="150" height="260" rx="72" fill="#f3eadc"/><rect x="550" y="430" width="150" height="260" rx="72" fill="#f3eadc"/><rect x="238" y="470" width="78" height="178" rx="39" fill="#202b2a"/><rect x="584" y="470" width="78" height="178" rx="39" fill="#202b2a"/></g>
+</svg>
