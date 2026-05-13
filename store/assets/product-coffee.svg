@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="950" viewBox="0 0 900 950" role="img" aria-label="Pour-over kettle">
-  <defs><linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f7f2e9"/><stop offset=".55" stop-color="#aebbb2"/><stop offset="1" stop-color="#22302e"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="30" stdDeviation="24" flood-opacity=".28"/></filter></defs>
-  <rect width="900" height="950" fill="url(#b)"/>
-  <g filter="url(#s)"><path d="M290 485 C290 365 610 365 610 485 L570 688 H330 Z" fill="#202b2a"/><path d="M610 485 C720 468 760 530 725 608 C700 664 642 666 585 618" fill="none" stroke="#d0a95e" stroke-width="32" stroke-linecap="round"/><path d="M310 420 C250 350 230 300 250 265 C288 320 350 355 450 358" fill="none" stroke="#202b2a" stroke-width="30" stroke-linecap="round"/><rect x="375" y="285" width="150" height="44" rx="22" fill="#d0a95e"/></g>
-</svg>

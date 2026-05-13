@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="950" viewBox="0 0 900 950" role="img" aria-label="Tote bag">
-  <defs><linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1eee6"/><stop offset=".65" stop-color="#b9c4bb"/><stop offset="1" stop-color="#273331"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="30" stdDeviation="26" flood-opacity=".28"/></filter></defs>
-  <rect width="900" height="950" fill="url(#b)"/>
-  <g filter="url(#s)"><rect x="245" y="310" width="410" height="440" rx="36" fill="#263331"/><path d="M330 310 C346 190 554 190 570 310" fill="none" stroke="#c28a5e" stroke-width="36" stroke-linecap="round"/><rect x="302" y="386" width="296" height="38" rx="19" fill="#f4eadc" opacity=".82"/><rect x="302" y="458" width="210" height="24" rx="12" fill="#8fa196"/></g>
-</svg>

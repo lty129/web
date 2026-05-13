@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="950" viewBox="0 0 900 950" role="img" aria-label="Classic watch">
-  <defs><linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f5f6f1"/><stop offset="1" stop-color="#9aa9a1"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="28" stdDeviation="24" flood-opacity=".25"/></filter></defs>
-  <rect width="900" height="950" fill="url(#b)"/><circle cx="710" cy="180" r="120" fill="#d4b15f" opacity=".55"/>
-  <g filter="url(#s)"><rect x="405" y="90" width="90" height="270" rx="45" fill="#2a3333"/><rect x="405" y="590" width="90" height="280" rx="45" fill="#2a3333"/><circle cx="450" cy="475" r="184" fill="#d1a65f"/><circle cx="450" cy="475" r="145" fill="#fff8e8"/><circle cx="450" cy="475" r="9" fill="#1f2928"/><path d="M450 475 L450 392 M450 475 L522 508" stroke="#1f2928" stroke-width="12" stroke-linecap="round"/></g>
-</svg>
