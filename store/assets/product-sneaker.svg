@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="950" viewBox="0 0 900 950" role="img" aria-label="Lightweight sneaker">
+  <defs><linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f5f2ea"/><stop offset=".62" stop-color="#c8d0c8"/><stop offset="1" stop-color="#31413f"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="30" stdDeviation="24" flood-opacity=".25"/></filter></defs>
+  <rect width="900" height="950" fill="url(#b)"/>
+  <g filter="url(#s)" transform="rotate(-8 450 520)"><path d="M150 560 C230 426 390 410 514 488 C584 532 640 555 750 560 C798 563 824 613 792 650 C754 694 632 716 470 702 C300 687 210 668 147 638 C105 618 113 586 150 560 Z" fill="#f7efe3"/><path d="M292 506 C376 452 470 462 560 528" fill="none" stroke="#bf6948" stroke-width="34" stroke-linecap="round"/><path d="M220 646 C382 690 620 690 786 626" fill="none" stroke="#263331" stroke-width="30" stroke-linecap="round"/></g>
+</svg>
